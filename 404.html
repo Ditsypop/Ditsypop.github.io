@@ -2,25 +2,18 @@
 permalink: /404.html
 ---
 
-<?php
-  //thanks to Chris Coyier: https://css-tricks.com/snippets/php/randomize-background-image/ for the code snippet
-  $bg = array('/images/404-1.png', '/images/404-2.png' ); // array of filenames
-  $i = rand(0, count($bg)-1); // generate random number size of the array
-  $selectedBg = "$bg[$i]"; // set variable equal to which random filename was chosen
-?>
-
 <!DOCTYPE html>
 <html>
 
-<head>
-<link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
-<meta name="description" content="404! --ditsypop.github.io">
-<meta charset='utf-8'>
-</head>
+  <head>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <meta name="description" content="404! --ditsypop.github.io">
+    <meta charset='utf-8'>
+  </head>
 
-<body style="text-align: center;">
-<h1>WAT</h1>
-<p>How did you manage to 404 on a page that isn't even started, mate</p>
-<p><img src="<?php echo $selectedBg; ?>" alt="404? (If you're reading this your browser failed to load the image of the cute confused animu grill)"></p>
-</body>
+  <body style="text-align: center;">
+    <h1>WAT</h1>
+    <p>How did you manage to 404 on a page that isn't even started, mate</p>
+    </div>
+  </body>
 </html>
