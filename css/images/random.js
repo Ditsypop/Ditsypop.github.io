@@ -4,6 +4,7 @@ var random_images_array =
 "404-2.png", 
 ];
 
+path = 'css/images/'; 
 var num = Math.floor( Math.random() * random_images_array.length );
 var img = random_images_array[ num ];
 var imgStr = '<img src="' + path + img + '">';
