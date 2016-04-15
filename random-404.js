@@ -3,8 +3,6 @@ var random_images_array =
 [
 "404-1.png", 
 "404-2.png", 
-"404-3.png",
-"404-4.png",
 ];
 
 path = '/images/404/'; 
