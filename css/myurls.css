@@ -25,6 +25,8 @@ body {
   width: 100%;
   background-image: url("/images/bgs/texture3.png");
   font-family: "Source Code Pro";
+  position:fixed;
+  top:10%;
   
 }
 

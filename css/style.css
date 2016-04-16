@@ -26,7 +26,8 @@ body {
   /*background-image: url("/images/bgs/texture3.png");*/
   font-family: "Source Code Pro";
   color: #ffd1dc;
-  
+  position:fixed;
+  top:10%;
 }
 
 main {
