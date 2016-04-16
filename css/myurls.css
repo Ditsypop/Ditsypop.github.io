@@ -27,6 +27,7 @@ body {
   font-family: "Source Code Pro";
   position:fixed;
   top:10%;
+  bottom:10%;
   
 }
 
@@ -49,15 +50,15 @@ h1 {
 
 hr {
   border: 0;
-  border-top: 1px solid #70838c;
+  border-top: 2px solid #70838c;
   opacity: .4;
   width: 60%;
 }
 
 ul {
   display: block;
-  margin: 0 auto;
-  width: 60%;
+  margin: 0;
+  width: 100%;
 }
 
 li {
