@@ -32,7 +32,6 @@ main {
   display: block;
   font-family: "Source Code Pro";
   /* left: 50%; */
-  position: absolute;
   /*top: 30%;*/
   /* transform: translate(-50%, -50%); */
   width: 100%;
@@ -57,7 +56,6 @@ ul {
   display: block;
   margin: 0 auto;
   width: 60%;
-  text-align: center;
 }
 
 li {
@@ -66,8 +64,7 @@ li {
   font-size: 1.2em;
   line-height: 1.5;
   list-style: none;
-  margin: 5px;
-  text-align: center;
+  margin: 0px;
 }
 
 a {
