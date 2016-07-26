@@ -1,9 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<url><loc>http://ditsypop.github.io/</loc><lastmod>2016-05-20T16:50:02+00:00</lastmod><changefreq>always</changefreq><priority>1.00</priority></url>
-<url><loc>https://ditsypop.github.io/main.html</loc><lastmod>2016-05-20T16:50:02+00:00</lastmod><changefreq>always</changefreq><priority>0.85</priority></url>
-<url><loc>https://ditsypop.github.io/index.html</loc><lastmod>2016-05-20T16:50:02+00:00</lastmod><changefreq>always</changefreq><priority>0.69</priority></url>
-<url><loc>https://ditsypop.github.io/discord.html</loc><lastmod>2016-05-20T16:50:02+00:00</lastmod><changefreq>always</changefreq><priority>0.69</priority></url>
-<url><loc>https://ditsypop.github.io/donate.html</loc><lastmod>2016-05-20T16:50:02+00:00</lastmod><changefreq>always</changefreq><priority>0.69</priority></url>
-<url><loc>https://ditsypop.github.io/404.html</loc><lastmod>2016-05-20T16:50:03+00:00</lastmod><changefreq>always</changefreq><priority>0.69</priority></url>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>http://ditsypop.github.io/</loc>
+  <lastmod>2016-07-26T02:28:48+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://ditsypop.github.io/boosting</loc>
+  <lastmod>2016-07-26T02:28:48+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ditsypop.github.io/discord</loc>
+  <lastmod>2016-07-26T02:28:49+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ditsypop.github.io/steam</loc>
+  <lastmod>2016-07-26T02:28:49+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ditsypop.github.io/twitter</loc>
+  <lastmod>2016-07-26T02:28:49+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ditsypop.github.io/twitch</loc>
+  <lastmod>2016-07-26T02:28:49+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ditsypop.github.io/donate</loc>
+  <lastmod>2016-07-26T02:28:48+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://ditsypop.github.io/paypal</loc>
+  <lastmod>2016-07-26T02:28:49+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://ditsypop.github.io/bitcoin</loc>
+  <lastmod>2016-07-26T02:28:49+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>0.64</priority>
+</url>
 </urlset>
