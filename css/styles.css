@@ -1,0 +1,102 @@
+@import url(https://fonts.googleapis.com/css?family=Delius+Swash+Caps|Love+Ya+Like+A+Sister|Source+Code+Pro:400,700);
+
+/* Bootstrap */
+ul.nav li a, ul.nav li a:visited {
+    color: #ff69b4 !important;
+    font-family: "Helvetica" !important;
+}
+
+ul.nav li a:hover, ul.nav li a:active {
+    color: #ffd1dc !important;
+    font-family: "Helvetica" !important;
+}
+
+ul.nav li.active a {
+    color: #ffffff !important;
+    font-family: "Helvetica" !important;
+}
+
+body {
+  background-image: url("https://i.imgur.com/SE2Hw8s.png");
+  font-family: "Helvetica";
+}
+
+/* Text */
+h1 {
+  color: #ff69b4;
+  font-family: 'Delius Swash Caps', cursive;
+}
+
+h2 {
+  color: #b6fff4;
+  font-family: 'Delius Swash Caps', cursive;
+}
+
+p {
+  color: #ffd1dc;
+  font-family: 'Helvetica', monospace;
+}
+
+/* Links */
+a.linkbutton {
+  color: #ff69b4;
+  text-decoration: none;
+}
+
+a.linkbutton:hover {
+  color: #ffd1dc;
+  text-decoration: none;
+}
+
+/* divs */
+
+.footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  margin-top: 85px;
+  z-index: -1
+}
+
+.footer .innertext {
+  font-size: 18px; 
+  text-align: center;
+}
+
+.title {
+  font-family: 'Delius Swash Caps';
+  color: #ff69b4;
+  text-align: center;
+  display: block;
+  font-size: 2em;
+  -webkit-margin-before: 0.67em;
+  -webkit-margin-after: 0.67em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+}
+
+.titlesub {
+  font-family: 'Delius Swash Caps';
+  color: #57a1b7;
+  text-align: center;
+  font-size: 22px;
+}
+
+.sectiontitle {
+  color: #57a1b7;
+  font-family: 'Source Code Pro'; 
+  font-size: 24px; 
+  margin-top: -25px;
+}
+
+.sectiontext {
+  color: #ffd1dc;
+  font-size: 14px;
+}
+
+.linkrow {
+  font-family: 'Helvetica'; 
+  font-size: 14px;
+}
+

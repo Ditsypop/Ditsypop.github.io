@@ -1,44 +1,10 @@
-/*@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700);
-
-body {
-
-  background-image: url("/images/bgs/texture3.png");
-  font-family: "Source Code Pro";
-  
-}
-*/
-/*Adapted from: "Startpage Css By Dylan Araps" (https://github.com/lazyfox81/startpage/blob/master/main.css)*/
-@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700);
-@import url(https://fonts.googleapis.com/css?family=Delius+Swash+Caps);
-@import url(https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister);
-
-/* Change styles of bootstrap */
-ul.nav li a, ul.nav li a:visited {
-    color: #ff69b4 !important;
-    font-family: "Source Code Pro" !important;
-}
-
-ul.nav li a:hover, ul.nav li a:active {
-    color: #ffd1dc !important;
-    font-family: "Source Code Pro" !important;
-}
-
-ul.nav li.active a {
-    color: #FFFFFF !important;
-    font-family: "Source Code Pro" !important;
-}
-/* */
-
-html,
-body,
+@import url(https://fonts.googleapis.com/css?family=Delius+Swash+Caps|Love+Ya+Like+A+Sister|Source+Code+Pro:400,700);
 
 body {
   font-family: "Source Code Pro";
+  background-image: url("images/bgs/texture1.png");
   background: #373b49;
   color: #ffd1dc;
-  padding-top: 0px;
-  padding-left: 0%;
-  padding-right: 0%;
 }
 
 main {
@@ -93,3 +59,20 @@ li.linkbox {
   list-style: none;
   margin: 0px;
 }
+
+/* Change styles of bootstrap */
+ul.nav li a, ul.nav li a:visited {
+    color: #ff69b4 !important;
+    font-family: "Source Code Pro" !important;
+}
+
+ul.nav li a:hover, ul.nav li a:active {
+    color: #ffd1dc !important;
+    font-family: "Source Code Pro" !important;
+}
+
+ul.nav li.active a {
+    color: #FFFFFF !important;
+    font-family: "Source Code Pro" !important;
+}
+/* */
