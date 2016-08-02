@@ -2,18 +2,21 @@
 
 /* Bootstrap */
 ul.nav li a, ul.nav li a:visited {
-    color: #ff69b4 !important;
-    font-family: "Helvetica" !important;
+  text-align: center;
+  color: #ff69b4 !important;
+  font-family: "Helvetica" !important;
 }
 
 ul.nav li a:hover, ul.nav li a:active {
-    color: #ffd1dc !important;
-    font-family: "Helvetica" !important;
+  text-align: center;
+  color: #ffd1dc !important;
+  font-family: "Helvetica" !important;
 }
 
 ul.nav li.active a {
-    color: #ffffff !important;
-    font-family: "Helvetica" !important;
+  text-align: center;
+  color: #ffffff !important;
+  font-family: "Helvetica" !important;
 }
 
 /* main */
@@ -28,7 +31,7 @@ body {
 
 /* Text */
 code {
-  display:block;
+
 }﻿
 
 h1 {
