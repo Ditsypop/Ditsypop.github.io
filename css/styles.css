@@ -27,6 +27,10 @@ body {
 }
 
 /* Text */
+code {
+  display:block;
+}﻿
+
 h1 {
   color: #ff69b4;
   font-family: 'Delius Swash Caps', cursive;
