@@ -70,7 +70,7 @@ a.linkbutton:hover {
   z-index: -1
 }
 
-.footer .innertext {
+.innertext {
   /*font-size: 18px; */
   text-align: center;
 }
@@ -118,8 +118,7 @@ body {
   padding-bottom: 10px;
 }
 
-.header,
-.footer {
+.header {
   padding-right: 15px;
   padding-left: 15px;
 }
