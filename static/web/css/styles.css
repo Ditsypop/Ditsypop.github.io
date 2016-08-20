@@ -19,14 +19,42 @@ ul.nav li.active a {
   font-family: "Helvetica" !important;
 }
 
-/* main */
+/*content*/
+body {
+  background-image: url("https://i.imgur.com/SE2Hw8s.png");
+  font-family: "Helvetica";
+}
+
 main {
   padding-top: 50px;
 }
 
-body {
-  background-image: url("https://i.imgur.com/SE2Hw8s.png");
-  font-family: "Helvetica";
+.footer {
+  width: 100%;
+}
+
+/* static footer */
+* {margin:0;padding:0;} 
+
+html, body {height: 100%;}
+
+#wrap {min-height: 100%;}
+
+#main {overflow:auto;
+  padding-bottom: 30px;}  /* must be same height as the footer */
+
+#footer {position: relative;
+  margin-top: -30px; /* negative value of footer height */
+  height: 30px;
+  clear:both;} 
+
+/*Opera Fix*/
+body:before {
+  content:"";
+  height:100%;
+  float:left;
+  width:0;
+  margin-top:-32767px;
 }
 
 /* Text */
@@ -67,37 +95,28 @@ a.linkbutton:hover {
 }
 
 dl.info {
+  margin-bottom: 0px;
   display:table; 
   margin-left: auto; 
   margin-right: auto; 
-  margin-bottom: 75px;
   padding-left: 5px;
   padding-right: 5px;
 }
 
 dl dt.section {
   font-size: 18px;
-  margin-top: 5px;
+  padding-top: 5px;
   color: #57a1b7;
 }
 
 dl dd.content {
   font-size: 14px;
-  margin-top: 5px;
+  padding-top: 5px;
   margin-left: 25px;
   color: #ffd1dc;
 }
 
 /* divs */
-
-.footer {
-  bottom: 0px;
-  width: 100%;
-  margin-top: 85px;
-  z-index: -1
-  border-top: 1px solid;
-}
-
 .innertext {
   /*font-size: 18px; */
   text-align: center;
@@ -109,10 +128,6 @@ dl dd.content {
   text-align: center;
   display: block;
   font-size: 2em;
-  -webkit-margin-before: 0.67em;
-  -webkit-margin-after: 0.67em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
   font-weight: bold;
 }
 
@@ -127,7 +142,7 @@ dl dd.content {
   color: #57a1b7;
   font-family: 'Source Code Pro'; 
   font-size: 24px; 
-  margin-top: -25px;
+  padding-top: -25px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -151,8 +166,7 @@ dl dd.content {
 
 /* Space out content a bit */
 body {
-  padding-top: 10px;
-  padding-bottom: 10px;
+
 }
 
 @media (min-width: 768px) {
@@ -164,9 +178,6 @@ body {
   margin: 30px 0;
 }
 @media screen and (min-width: 768px) {
-  .header {
-    margin-bottom: 30px;
-  }
 
   dl.info {
     padding: 0;
