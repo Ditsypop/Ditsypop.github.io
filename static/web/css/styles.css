@@ -1,5 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Delius+Swash+Caps|Love+Ya+Like+A+Sister|Source+Code+Pro:400,700);
 
+* {margin:0;padding:0;} 
+
 /* Bootstrap */
 ul.nav li a, ul.nav li a:visited {
   text-align: center;
@@ -26,6 +28,7 @@ body {
 }
 
 main {
+  padding-bottom: 50px;
   padding-top: 50px;
 }
 
@@ -34,8 +37,6 @@ main {
 }
 
 /* static footer */
-* {margin:0;padding:0;} 
-
 html, body {height: 100%;}
 
 #wrap {min-height: 100%;}
@@ -140,7 +141,7 @@ dl dd.content {
   color: #57a1b7;
   font-family: 'Source Code Pro'; 
   font-size: 24px; 
-  padding-top: -25px;
+  margin-top: -25px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -178,7 +179,7 @@ body {
 @media screen and (min-width: 768px) {
 
   dl.info {
-    padding: 0;
+    margin: auto;
     width: 50%;
   }
 
