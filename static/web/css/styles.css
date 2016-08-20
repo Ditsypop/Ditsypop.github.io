@@ -27,8 +27,6 @@ main {
 body {
   background-image: url("https://i.imgur.com/SE2Hw8s.png");
   font-family: "Helvetica";
-  margin: auto;
-  display: block;
 }
 
 /* Text */
@@ -62,6 +60,37 @@ a.linkbutton:hover {
   text-decoration: none;
 }
 
+dl {
+  padding: 0; 
+  width: 40%;
+}
+
+/*idk*/
+
+.infoarea {
+  
+}
+
+dl.info {
+  display:table; 
+  margin-left: auto; 
+  margin-right: auto; 
+  margin-bottom: 75px;
+}
+
+dl dt.section {
+  font-size: 18px;
+  margin-top: 5px;
+  color: #57a1b7;
+}
+
+dl dd.content {
+  font-size: 14px;
+  margin-top: 5px;
+  margin-left: 25px;
+  color: #ffd1dc;
+}
+
 /* divs */
 
 .footer {
@@ -70,8 +99,7 @@ a.linkbutton:hover {
   width: 100%;
   margin-top: 85px;
   z-index: -1
-  margin-left: auto;
-  margin-right: auto;
+  border-top: 1px solid;
 }
 
 .innertext {
@@ -106,6 +134,7 @@ a.linkbutton:hover {
   margin-top: -25px;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 
 .sectiontext {
@@ -113,6 +142,7 @@ a.linkbutton:hover {
   font-size: 14px;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 
 .linkrow {
@@ -120,6 +150,7 @@ a.linkbutton:hover {
   margin-right: auto;
   font-family: 'Helvetica'; 
   font-size: 14px;
+  text-align: center;
 }
 
 /* Space out content a bit */
@@ -128,19 +159,6 @@ body {
   padding-bottom: 10px;
 }
 
-.header {
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
-.header h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 40px;
-}
-.footer {
-  border-top: 1px solid;
-}
 @media (min-width: 768px) {
   .container {
     max-width: 730px;
@@ -150,13 +168,6 @@ body {
   margin: 30px 0;
 }
 @media screen and (min-width: 768px) {
-  /* Remove the padding we set earlier */
-  .header,
-  .footer {
-    padding-right: 0;
-    padding-left: 0;
-  }
-  /* Space out the masthead */
   .header {
     margin-bottom: 30px;
   }
