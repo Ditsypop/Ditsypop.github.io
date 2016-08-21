@@ -1,17 +1,17 @@
 ---
 layout: default
 title: donate / pay
-descr: donate or make a payment to ditsypop
+descr: make a donation or pay for services
 active: donate
 permalink: /donate
 wallet: 1G8hDjf8FrPtzFayG1V23u9nev78EXnkFF
 ---
-<div class="sectiontitle">Payment methods</div>
+<div id="payment-methods" class="sectiontitle">Payment methods</div>
 <div class="linkrow">
-  <a class="linkbutton" href="/paypal" target="_blank" title="paypal donation">paypal</a> |
-  <a class="linkbutton" href="/bitcoin" target="_blank">bitcoin</a> |
-  <a class="linkbutton" href="/steam-trading" target="_blank">steam</a>
+  <a id="link-paypal" class="linkbutton" href="paypal" target="_blank" title="paypal donation">paypal</a> |
+  <a id="link-bitcoin" class="linkbutton" href="bitcoin" target="_blank">bitcoin</a> |
+  <a id="link-steam" class="linkbutton" href="steam-trading" target="_blank">steam</a>
   <div class="sectiontext">Currency/items from Gw2, Runescape, and WoW also accepted!</div>
-  <a href="bitcoin:{{ page.wallet }}"><img src="static/web/image/QR-coinbase.png" width="256" height="256" alt="btc QR image"></a>
+  <a id="link-bitcoin-direct" href="bitcoin:{{ page.wallet }}"><img src="static/web/image/QR-coinbase.png" width="256" height="256" alt="btc QR image"></a>
   <br><code>{{ page.wallet }}</code><br>
 </div>

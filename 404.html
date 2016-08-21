@@ -6,8 +6,10 @@ active: 404
 permalink: /404.html
 ---
 <body onload="timer=setTimeout(function(){ window.location='https://ditsypop.github.io';}, 10000)">
-<div class="sectiontitle">We got lost ): redirecting in 10 seconds!</div>
-<div class="linkrow"><a class="linkbutton" href="https://ditsypop.github.io/">(or take me home now)</a></div>
+<div id="404" class="sectiontitle">We got lost ): redirecting in 10 seconds!</div>
+<div class="linkrow">
+  <a id="link-home" class="linkbutton" href="{{ site.baseurl }}/">(or take me home now)</a>
+</div>
 <br>
 <div class="404image">
   <!--script courtesy of https://catbox.moe/pic.js-->
