@@ -40,15 +40,20 @@ main {
 /* static footer */
 html, body {height: 100%;}
 
-#wrap {min-height: 100%;}
+#wrap {
+  min-height: 100%;
+  padding: 5px;
+}
 
 #main {overflow:auto;
   padding-bottom: 30px;}  /* must be same height as the footer */
 
-#footer {position: relative;
-  margin-top: -30px; /* negative value of footer height */
-  height: 30px;
-  clear:both;} 
+#footer {
+  position: relative;
+  margin-top: -50px; /* negative value of footer height */
+  height: 50px;
+  clear:both;
+} 
 
 /*Opera Fix*/
 body:before {
@@ -118,8 +123,9 @@ dl dd.content {
 
 /* divs */
 .innertext {
-  /*font-size: 18px; */
   text-align: center;
+  position: relative; 
+  top: 25px
 }
 
 .title {
