@@ -11,7 +11,7 @@ ul.nav li a, ul.nav li a:visited {
 
 ul.nav li a:hover, ul.nav li a:active {
   text-align: center;
-  color: #ffd1dc !important;
+  color: #69ffb4 !important;
   font-family: "Helvetica" !important;
 }
 
@@ -91,7 +91,7 @@ a.linkbutton {
 }
 
 a.linkbutton:hover {
-  color: #ffd1dc;
+  color: #69ffb4;
   text-decoration: none;
 }
 
