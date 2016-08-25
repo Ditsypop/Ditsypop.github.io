@@ -66,8 +66,12 @@ body:before {
 
 /* Text */
 code {
-
-}﻿
+  padding: 0px;
+  font-size: 14px;
+  color: #c7254e;
+  background: none;
+  border-radius: 0px;
+}
 
 h1 {
   color: #ff69b4;
